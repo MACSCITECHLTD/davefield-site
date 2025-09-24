@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #0a0a0a;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background: #111;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #bbb;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.hero {
+  padding: 4em 1em;
+  background: linear-gradient(135deg, #222, #111);
+}
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+  background: #111;
+}
