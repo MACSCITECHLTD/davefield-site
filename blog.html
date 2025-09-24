@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DaveField Blog</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Blog post formatting */
+    .blog-box {
+      max-width: 800px;
+      margin: 1.5em auto;
+      padding: 1.5em;
+      background-color: #f9f9f9;
+      border-left: 4px solid #444;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+    .blog-box h3 {
+      margin-top: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -29,8 +45,25 @@
       </p>
 
       <article>
-        <h3>[First Post Title]</h3>
-        <p>[Blog post content goes here...]</p>
+        <div class="blog-box">
+          <h3>The Conjecture on Prime Midpoints</h3>
+          <p>
+            One of the central threads in the DaveField project is a new conjecture about 
+            <strong>prime pair midpoints</strong>. Prime pairs (or “twin primes” when they differ by 2) 
+            have long fascinated mathematicians, but our work shifts the focus from the primes 
+            themselves to the numbers that lie directly between them. These midpoints appear 
+            to act like hidden markers — points where symmetry, divisibility, and information 
+            flow intersect in surprising ways.
+          </p>
+          <p>
+            By tracking and visualising these midpoints across vast numerical ranges, we begin 
+            to see structures that resemble lattices or fields, hinting at deeper connections 
+            between number theory and physical systems. The conjecture is still evolving, but 
+            its early patterns suggest that prime midpoints may carry more structural 
+            information than has previously been recognised, offering a fresh angle on one of 
+            mathematics’ oldest mysteries.
+          </p>
+        </div>
       </article>
     </section>
   </main>
