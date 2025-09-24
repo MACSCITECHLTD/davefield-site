@@ -103,6 +103,17 @@ nav a:hover {
 .donate-button:hover {
   background: #ffea55;
 }
+.blog-box {
+  max-width: 800px;
+  margin: 1.5em auto;
+  padding: 1.5em;
+  background-color: #f9f9f9;
+  border-left: 4px solid #444;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  line-height: 1.6;
+  color: #222; /* <<< ensures dark text */
+}
 
 
 footer {
@@ -110,4 +121,5 @@ footer {
   padding: 1em;
   background: #111;
 }
+
 
