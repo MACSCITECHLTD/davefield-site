@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometric Prime Conjecture - DaveField</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DaveField</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="visualisations.html">Visualisations</a>
+      <a href="geometric-prime-conjecture.html" class="active">Geometric Prime Conjecture</a>
+      <a href="twin-primes.html">Twin Primes</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="contribute.html">Contribute</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Geometric Prime Conjecture</h2>
+      <p>
+        This page hosts the text of the conjecture, supporting images, and links to 
+        software that allows you to explore and test the ideas yourself.
+      </p>
+
+      <h3>Downloadable PDF</h3>
+      <p>
+        <a href="assets/geometric_prime_conjecture.pdf" download>
+          📄 Download the Conjecture (PDF)
+        </a>
+      </p>
+
+      <h3>Supporting Images</h3>
+      <div class="gallery">
+        <div class="gallery-item">
+          <a href="assets/martini_conjecture.png" target="_blank">
+            <img src="assets/martini_conjecture.png" alt="Martini Glass Conjecture">
+          </a>
+          <p>Martini Glass Conjecture Diagram</p>
+        </div>
+        <!-- add more images here -->
+      </div>
+
+      <h3>Software Tools</h3>
+      <p>
+        Try running simple scripts to check the conjecture on your own machine.
+      </p>
+      <ul>
+        <li><a href="assets/check_conjecture.py" download>Download Python Checker</a></li>
+        <li><a href="https://github.com/yourrepo/conjecture-tools" target="_blank">View on GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
